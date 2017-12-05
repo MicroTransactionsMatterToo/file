@@ -15,3 +15,22 @@
 >>>25	string		:
 >>>>26	string		>\0		(version %.3s)
 
+
+#-----------------------------------------------------------------------
+# Email: ennisbaradine@gmail.com
+# Name: Ennis Massey
+# Date: 05/12/2017
+# Short Description: Music file format used by Cave Story (original) and created by Pixel
+# Extension: .org
+#
+# The file format functions via referencing samples that must be provided by the player. 
+# A standard set of instruments is those used in the game.
+#
+# Documentation Links:
+# 	https://gist.github.com/FDeityLink/7fc9ddcc54b33971e5f505c8da2cfd28
+# 	http://fileformats.archiveteam.org/wiki/Organya
+0	string	Org-02	Organya Music File
+>0x12	short	>0x63
+>0x12	short	<0x76C
+>0x16	short	>0x00
+>0x16	short	<0x100
