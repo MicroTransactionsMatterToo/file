@@ -1,0 +1,20 @@
+#-------------------------------------------------------
+# $File: unity,v1.0 05/12/2017 23:00 ennism Exp $
+# unity: file(1) magic for unity asset files
+#
+
+# Unity Asset File
+# File format courtesy of Disunity's developer (https://github.com/ata4/disunity/wiki/Serialized-file-format)
+# File type will be confirmed via the matching of multiple complex structures
+0	belong	x	Unity Asset File,
+>0x08	belong	=0x5	\bUnity Version 1.2-2.0
+>0x08	belong	=0x6	\bUnity Version 2.1-2.6
+>0x08	belong	=0x7	\bUnity Version ???
+>0x08	belong	=0x8	\bUnity Version 3.1-3.4
+>0x08	belong	=0x9	\bUnity Version 3.5-4.5
+>0x08	belong	=0xa	\bUnity Version ???
+>0x08	belong	=0xb	\bUnity Version ???
+>0x08	belong	=0xc	\bUnity Version 4.9
+>0x08	belong	=0xd	\bUnity Version ???
+>0x08	belong	=0xe	\bUnity Version 5.0
+>0x08	belong	=0xf	\bUnity Version 5.0p3+
